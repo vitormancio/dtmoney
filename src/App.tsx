@@ -1,11 +1,12 @@
+import { Header } from "./componets/Header";
 import { GlobalStyle } from "./style/global";
 
 export function App() {
   return (
-    <div className="App">
-      <h1>Hello World</h1>
+    <>
+      <Header />
       <GlobalStyle />
-    </div>
+    </>
     
   );
 }
