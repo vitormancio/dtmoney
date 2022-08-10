@@ -14,8 +14,6 @@ export function NewTransactionModal ({isOpen,onRequestClose}: NewTransactionModa
             overlayClassName='react-modal-overlay'
             className='react-modal-content'
             >
-                <h1>Cadastrar transação</h1>
-
             <Container>
                 
             <h2>Cadastrar transação</h2>
@@ -27,6 +25,10 @@ export function NewTransactionModal ({isOpen,onRequestClose}: NewTransactionModa
              <input
              type='number'
              placeholder='Valor'  
+             />
+
+             <input 
+            placeholder='Categoria'
              />
 
              <button type="submit">
